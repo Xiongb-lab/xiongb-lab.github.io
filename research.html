@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Lab Website - Research</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            
+        }
+
+        header {
+            background: url('head.webp') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 2.2em;
+        }
+
+        nav {
+            background-color: transparent;
+            color: white;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 0;
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            line-height: 1.6;
+            font-size: 1.6em;
+            text-indent: 2em;
+        }
+
+        section p2 {
+            line-height: 1.6;
+            text-indent: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bing Xiong's Laboratory</h1>
+        <p>Drug Discovery &. Chemical Biology</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="research">
+        <h2>Research</h2>
+        <p>Our research focuses on the following key areas:</p>
+        <ul style="font-size: 22px;">
+            <li><strong>Chemical Biology in Protein PTM</strong> </li>
+            <p2> 
+                Protein posttranslational modification (PTM) refers to the chemical changes 
+                that occur to a protein after it is synthesized during translation. 
+                These modifications, which include phosphorylation, glycosylation, ubiquitination, 
+                acetylation, and methylation, among others, can significantly alter a protein's function, 
+                stability, localization, and interactions with other molecules. PTMs are crucial for 
+                regulating cellular processes, signaling pathways, and overall protein activity, 
+                enabling cells to respond dynamically to environmental changes and physiological needs.
+                So, understanding PTMs is essential because they play a critical role in disease mechanisms. 
+                During the past years, we have developed many highly selective chemical probes of several writers, erasers and readers of these PTMs.
+                In phosphorylation, we developed many types inhibitors of c-Met, FGFR，CDK7, RIPK2 and MK2 kinases. For acetylation, we focused on design of BET inhibitors.
+                And in metylation, we carried out many studies on the design of inhibitors of demethylase LSD1 and protein arginine methyltransferases PRMT4 and PRMT5.
+                Currently, we are focusing on the enzymes involved in the ubiquitination processes.
+            </p2>
+            <img src="PTM.jpg" alt="示例图片" width="500" height="450" style="display: block; margin: 0 auto;">
+                <br></br>
+            <li><strong>Peptide Drug Discovery with Phage-Display Technology</strong> </li>
+            <p2> Peptide drug discovery using phage-display libraries is a powerful approach for identifying 
+                high-affinity peptide ligands that can bind to specific therapeutic targets, 
+                such as proteins or receptors. In this technique, a diverse library of peptides 
+                is genetically engineered to be displayed on the surface of bacteriophages. 
+                Each phage carries a unique peptide sequence, 
+                 allowing for the screening of millions to billions of potential candidates 
+                 simultaneously. The library is exposed to a target of interest, and phages 
+                 displaying peptides with high binding affinity are selected and amplified 
+                 through multiple rounds of biopanning. This iterative process enriches for 
+                 peptides that specifically interact with the target. Currently, we are developing new technologies for online modifying
+                  the natural amino acid into non-natural amino acid and cyclizing the peptides with new chemical method. 
+                  Besides, we are also utilizing the machine learning approach to analyze and deign bioactive peptides.</p2>
+                  <img src="Phage.png" alt="示例图片" width="500" height="450" style="display: block; margin: 0 auto;">
+                  <br></br>
+            <li><strong>Structure-based Drug Discovery</strong> </li>
+            <p2>Structure-based drug discovery (SBDD) is a rational approach that leverages 
+                the three-dimensional structures of target proteins to design and optimize 
+                potential drug candidates. By using high-resolution structural data obtained
+                 from techniques such as X-ray crystallography and cryo-electron microscopy 
+                 (cryo-EM), we can visualize the atomic details of a target protein, 
+                 including its binding pockets, and conformational dynamics. 
+                 This structural information serves as a critical starting point for identifying
+                  and designing small moleculesthat can interact with the target 
+                  in a specific and potent manner. In our lab, we have integrating displines of structural biology, 
+                  computaitonal modeling and medicinal chemistry to design and develop drugs on c-Met kinase (Gumarontinib, marketed) and LSD1 (X-L177, IND). 
+                 We are also build a fragment-based drug discovery platform for new targets. Currently, our lab have a fragment library of mroe than 2000 compounds, 
+                 and we can use Mass Spectra to screen the library rapidly to find the weak binders. Then the SBDD approach can be used to optimize it into drug candidates.
+                </p2>
+            <br></br>
+
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 [Bing Xiong's Lab]. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>    
